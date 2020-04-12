@@ -11,7 +11,7 @@ for dic in data:
            ID =dic['id']
 
             
-params={"APIKEY":"ec5a67af8f14a58ca723644a939217fc",
+params={"APIKEY":"HERE IS WHERE YOU INPUT YOUR API",
     "id": ID }
 url2="http://api.openweathermap.org/data/2.5/forecast?&appid={APIKEY}"
 response=requests.get(url2,params=params)
